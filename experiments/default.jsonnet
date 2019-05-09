@@ -60,7 +60,7 @@ local hidden_dim = 100;
     "num_epochs": 50,
     "patience": 5,
     "grad_norm": 5.0,
-    "cuda_device": 0,
+    "cuda_device": -1,
     "optimizer": {
       "type": "adam",
       "lr": 0.0001
